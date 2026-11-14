@@ -1,0 +1,35 @@
+[
+  {
+    "id": "fallback_q_0",
+    "answer": "I understand this may feel difficult. Based on retrieved knowledge: Randomly watched arrow this week and I think each year is more confusing and I didn't like it! At least [NAME] is still there and always shining! oh [NAME] I unleashed the beast | Response to query: I am stressed and cannot sleep before exams.",
+    "retrieved_ids": [
+      "go_1188",
+      "go_694",
+      "go_920",
+      "go_1064",
+      "go_1940"
+    ]
+  },
+  {
+    "id": "fallback_q_1",
+    "answer": "Based on retrieved knowledge: [NAME]* that would have been sliiiiick Thanks I don't know why it didn't load for me on my phone. | Response to query: I finished my project milestone today!",
+    "retrieved_ids": [
+      "go_1912",
+      "go_1695",
+      "go_1305",
+      "go_983",
+      "go_1251"
+    ]
+  },
+  {
+    "id": "fallback_q_2",
+    "answer": "Based on retrieved knowledge: Apple can still go kindly fuck itself tho [NAME]! I missed you | Response to query: Can you explain RAG evaluation metrics?",
+    "retrieved_ids": [
+      "go_1236",
+      "go_1367",
+      "go_434",
+      "go_1791",
+      "go_1811"
+    ]
+  }
+]

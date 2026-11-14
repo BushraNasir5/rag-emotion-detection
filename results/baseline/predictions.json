@@ -1,0 +1,35 @@
+[
+  {
+    "id": "fallback_q_0",
+    "answer": "Based on retrieved knowledge: [NAME] needs to settle down before [NAME] gets him all worked up. Same love our late 80s and early 90s Unis. When ever I used to play [NAME] I always played with throw back Unis due to helmet | Response to query: I am stressed and cannot sleep before exams.",
+    "retrieved_ids": [
+      "go_1940",
+      "go_1878",
+      "go_1648",
+      "go_1609",
+      "go_655"
+    ]
+  },
+  {
+    "id": "fallback_q_1",
+    "answer": "Based on retrieved knowledge: My fans on patreon will be rewarded soon I very happy with my character. I took my sweet ass time picking one that I liked. | Response to query: I finished my project milestone today!",
+    "retrieved_ids": [
+      "go_107",
+      "go_629",
+      "go_1912",
+      "go_895",
+      "go_211"
+    ]
+  },
+  {
+    "id": "fallback_q_2",
+    "answer": "Based on retrieved knowledge: No it hasn't. yep, i think you should just try to be as honest as you can about how you feel, how it affects your daily life, etc | Response to query: Can you explain RAG evaluation metrics?",
+    "retrieved_ids": [
+      "go_355",
+      "go_434",
+      "go_1679",
+      "go_798",
+      "go_1367"
+    ]
+  }
+]

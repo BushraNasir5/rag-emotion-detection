@@ -1,0 +1,6 @@
+exp_id,system,query_rewrite,emotion_ranking,tone_conditioning,alpha,beta,gamma,metrics_file
+E1,baseline_rag,false,false,false,1.0,0.0,0.0,results/baseline/metrics.json
+E2,ea_rag_full,true,true,true,0.70,0.25,0.05,results/earag/metrics.json
+E3,ablation_no_query_rewrite,false,true,true,0.70,0.25,0.05,results/ablation_metrics.json
+E4,ablation_no_emotion_ranking,true,false,true,0.70,0.25,0.05,results/ablation_metrics.json
+E5,ablation_no_tone_conditioning,true,true,false,0.70,0.25,0.05,results/ablation_metrics.json

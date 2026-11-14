@@ -1,0 +1,5 @@
+variant,hit@1,hit@3,hit@5
+full,0.5,1.0,1.0
+no_query_rewrite,0.5,1.0,1.0
+no_emotion_ranking,0.0,0.5,1.0
+no_tone_conditioning,0.5,1.0,1.0

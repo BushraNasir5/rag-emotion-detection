@@ -1,0 +1,22 @@
+Build IEEE-style manuscript PDF (IEEEtran)
+
+1) Install TeX Live + IEEEtran class (Ubuntu/Debian example):
+
+   sudo apt-get update && sudo apt-get install -y \\
+     texlive-latex-base texlive-fonts-recommended texlive-latex-extra \\
+     texlive-publishers
+
+   texlive-publishers provides IEEEtran.cls.
+
+2) Compile (two passes for stable references):
+
+   cd /home/ad/Documents/Research/paper
+   pdflatex manuscript.tex
+   pdflatex manuscript.tex
+
+Output: manuscript.pdf
+
+Before submission:
+
+- Replace author names/affiliations in manuscript.tex (\IEEEauthorblockN / \IEEEauthorblockA).
+- Follow target venue margins and page limits; some conferences supply a ZIP template—swap in their IEEEtran tuning if needed.

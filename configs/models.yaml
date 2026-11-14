@@ -1,0 +1,14 @@
+models:
+  emotion_classifier:
+    name: "j-hartmann/emotion-english-distilroberta-base"
+    device: "cpu"
+    max_length: 256
+  embedding:
+    primary: "BAAI/bge-large-en-v1.5"
+    fallback: "intfloat/e5-large-v2"
+    normalize: true
+  generator:
+    provider: "local_mock"
+    model_name: "mock-generator-v1"
+    max_tokens: 256
+    temperature: 0.2

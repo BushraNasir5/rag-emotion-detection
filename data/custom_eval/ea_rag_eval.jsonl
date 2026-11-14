@@ -1,0 +1,3 @@
+{"id": "fallback_q_0", "query": "I am stressed and cannot sleep before exams.", "target_emotion": "distress", "gold_context": ["go_1940", "go_1878", "go_1648"], "reference_answer": "Reference response placeholder.", "tone_constraint": "supportive"}
+{"id": "fallback_q_1", "query": "I finished my project milestone today!", "target_emotion": "positive", "gold_context": ["go_107", "go_629", "go_1912"], "reference_answer": "Reference response placeholder.", "tone_constraint": "celebratory"}
+{"id": "fallback_q_2", "query": "Can you explain RAG evaluation metrics?", "target_emotion": "neutral", "gold_context": ["go_355", "go_434", "go_1679"], "reference_answer": "Reference response placeholder.", "tone_constraint": "neutral"}

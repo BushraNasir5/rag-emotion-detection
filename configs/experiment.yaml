@@ -1,0 +1,18 @@
+experiment:
+  seed: 42
+  seeds:
+  - 7
+  - 21
+  - 42
+  top_k: 5
+  retrieval_weights:
+    alpha: 0.7
+    beta: 0.25
+    gamma: 0.05
+  ablations:
+    remove_query_rewrite: false
+    remove_emotion_ranking: false
+    remove_tone_conditioning: false
+  logging:
+    output_dir: results
+    save_predictions: true

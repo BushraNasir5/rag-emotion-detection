@@ -1,0 +1,12 @@
+{
+  "baseline": {
+    "faithfulness_proxy": 0.7071323152917081,
+    "answer_relevancy_proxy": 0.18683172193608624,
+    "context_precision_proxy": 0.6
+  },
+  "earag": {
+    "faithfulness_proxy": 0.6328502415458938,
+    "answer_relevancy_proxy": 0.21288244766505637,
+    "context_precision_proxy": 0.20000000000000004
+  }
+}

@@ -1,0 +1,31 @@
+datasets:
+  goemotions:
+    enabled: true
+    source: "huggingface:go_emotions"
+    split_train: "train"
+    split_valid: "validation"
+    split_test: "test"
+  semeval2018:
+    enabled: true
+    source: "local_csv"
+    train_path: "data/raw/semeval2018/train.csv"
+    dev_path: "data/raw/semeval2018/dev.csv"
+    test_path: "data/raw/semeval2018/test.csv"
+  empathetic_dialogues:
+    enabled: true
+    source: "huggingface:empathetic_dialogues"
+    split_train: "train"
+    split_valid: "validation"
+    split_test: "test"
+  custom_eval:
+    enabled: true
+    path: "data/custom_eval/ea_rag_eval.jsonl"
+
+label_mapping:
+  anger: "distress"
+  fear: "distress"
+  sadness: "distress"
+  joy: "positive"
+  surprise: "neutral"
+  neutral: "neutral"
+  disgust: "distress"

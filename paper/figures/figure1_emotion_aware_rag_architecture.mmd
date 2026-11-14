@@ -1,0 +1,7 @@
+flowchart TD
+    userInput[UserInput] --> emotionDetector[EmotionDetector_BERT_or_RoBERTa]
+    emotionDetector --> queryRewriter[EmotionBasedQueryRewriter]
+    queryRewriter --> retriever[FAISSRetriever]
+    retriever --> rankingModule[EmotionAwareRankingModule]
+    rankingModule --> llmGenerator[PromptConditionedLLMGenerator]
+    llmGenerator --> finalResponse[FinalResponse]

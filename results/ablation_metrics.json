@@ -1,0 +1,26 @@
+[
+  {
+    "name": "full",
+    "hit@1": 0.5,
+    "hit@3": 1.0,
+    "hit@5": 1.0
+  },
+  {
+    "name": "no_query_rewrite",
+    "hit@1": 0.5,
+    "hit@3": 1.0,
+    "hit@5": 1.0
+  },
+  {
+    "name": "no_emotion_ranking",
+    "hit@1": 0.5,
+    "hit@3": 1.0,
+    "hit@5": 1.0
+  },
+  {
+    "name": "no_tone_conditioning",
+    "hit@1": 0.5,
+    "hit@3": 1.0,
+    "hit@5": 1.0
+  }
+]
